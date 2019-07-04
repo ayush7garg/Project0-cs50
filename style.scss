@@ -1,0 +1,34 @@
+#values{
+	color: yellow;
+}
+.information{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+a{
+	width: 120px;
+	
+}
+table, th, td {
+  border: 1px solid black;
+  #details{
+  	font-weight: bold;
+	color: red;
+  }
+}
+@media (min-width: 500px) {
+body {
+    background-color: #000020;
+}
+}
+@media (max-width: 499px) {
+body {
+    background-color: #000000;
+}
+}
+p,ul{
+	color: yellow;
+}
+h4,h2{
+	color: red;
+	font-weight: bold;
+}
